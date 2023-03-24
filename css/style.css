@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    width: 1440px;
+    height: 768px;
+    background-image: url(../img/header_bg.png);
+    margin: 0 auto;
+}
+.header-img {
+    padding-top: 41px;
+}
+.header__img {
+    width: 100px; 
+    Height: 23px;
+    margin: 0 auto;
+}
+.header-img1 {
+    padding-top: 309px;
+    padding-left: 6px;
+}
+.header__img1 {
+    width: 575px;
+    height: 60px;
+    margin: 0 auto;
+}
+.header-p {
+    width: 386px;
+    height: 22px;
+    color: #FFF;
+    margin: 0 auto;
+    padding-top: 6.5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+.header__p {
+
+}
+.header-p1 {
+    width: 122px;
+    height: 15px;
+    margin: 0 auto;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 3.7px;
+    padding-top: 227px;
+    padding-left: 2px;
+}
+.header__p1 {
+
+}
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Open Sans', sans-serif; */
