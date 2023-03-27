@@ -251,9 +251,12 @@ body {
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 0.5px;
-    color: #FFF;
     border: none;
     padding: 0 25px;
+}
+.servis__bt a {
+    color: #FFF;
+    text-decoration: none;
 }
 .servic__tree {
     display: grid;
@@ -286,6 +289,89 @@ body {
     padding: 14px 23px 0;
 }
 
+.get {
+    width: 1440px;
+    height: 499px;
+    background-image: url(../img/get-in-bgi.jpg);
+    margin-top: 115px;
+}
+.get-in {
+    text-align: center;
+}
+.get-in__title {
+}
+.get-in__h1 {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    padding-top: 121px;
+}
+.get__bt {
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    border: none;
+    padding: 0 25px;
+    margin-top: 33px;
+}
+.get__bt a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.newsletter {
+    height: 100px;
+    background-color: #171819;
+    padding-top: 28px;
+}
+.content {
+    width: 685px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.new__h2 {
+    width: 290px;
+    height: 30px;
+    padding-top: 7px;
+}
+.new__input {
+    width: 250px;
+    height: 40px;
+    background-color: #FFF;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.07px;
+    color: #48555B;
+    padding-top: 13px;
+    padding-left: 15px;
+}
+.new__title {
+    color: #FFF;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.846154px;
+}
+.new__bt {
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    border: none;
+    padding: 0 25px;
+    /* margin-top: 30px; */
+}
+.new__bt a {
+    color: #FFF;
+    text-decoration: none;
+}
 
 /* font-family: 'Bebas Neue', cursive;
 font-family: 'Open Sans', sans-serif; */
