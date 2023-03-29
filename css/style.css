@@ -211,6 +211,7 @@ body {
     width: 940px;
     height: 446px;
     margin: 0 auto;
+    margin-bottom: 115px;
 }
 .services__title {
 
@@ -294,6 +295,7 @@ body {
     height: 499px;
     background-image: url(../img/get-in-bgi.jpg);
     margin-top: 115px;
+    margin: 0 auto;
 }
 .get-in {
     text-align: center;
@@ -323,9 +325,11 @@ body {
 }
 
 .newsletter {
+    width: 1440px;
     height: 100px;
     background-color: #171819;
     padding-top: 28px;
+    margin: 0 auto;
 }
 .content {
     width: 685px;
@@ -372,6 +376,132 @@ body {
     color: #FFF;
     text-decoration: none;
 }
+
+.footer {
+    width: 1440px;
+    height: 299px;
+    background-color: #141A20;
+    margin: 0 auto;
+}
+.footer__titel {
+    width: 940px;
+    display: flex;
+    /* justify-content: flex-start */
+    margin: 0 auto;
+    padding-top: 38px;
+}
+.company {
+    width: 250px;
+    height: 148px;
+}
+.company__h4 {
+    font-size: 11px;
+    letter-spacing: 0.846154px;
+    font-weight: 400;
+    color: #FFF;
+}
+.company__img {
+    width: 102px;
+    height: 23px;
+    margin-top: 20px;
+}
+.company__p {
+    font-size: 11px;
+    line-height: 19px;
+    font-weight: 400;
+    letter-spacing: 0.85px;
+    color: #FFF;
+    padding-top: 14px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.links1 {
+    width: 262px;
+    height: 150px;
+    font-size: 11px;
+    line-height: 18.3px;
+    letter-spacing: 0.846154px;
+    font-weight: 400;
+    color: #FFF;
+    padding-left: 30px;
+}
+li {
+    list-style-type: none;
+}
+.links__h4 {
+    font-size: 11px;
+    letter-spacing: 0.846154px;
+}
+.links__spis {
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    color: #FFF;
+    font-size: 11px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.links__spisok {
+    width: 76px;
+    height: 125px;
+    padding: 0;
+}
+.faq {
+    width: 75px;
+    padding-left: 35px;
+}
+.blog {
+    width: 70px;
+    padding-left: 51px;
+}
+.contact {
+    width: 141px;
+    height: 158px;
+    color: #FFF;
+    margin-left: 88px;
+}
+.contact__h4 {
+    font-size: 11px;
+    
+    font-weight: 400;
+    letter-spacing: 0.846154px;
+}
+.contact__p {
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.846154px;
+    padding-top: 16px;
+}
+.cosials {
+    width: 85px;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 46px;
+}
+.cosials__img {
+    width: 12px;
+    height: 12px;
+    color: #FFF;
+    background-color: #fff;
+}
+.copyright {
+    width: 1440px;
+    height: 60px;
+    padding: 63px 0 0 11px;
+}
+.copyright__text {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.846154px;
+    color: #FFF;
+    text-align: center;
+}
+
 
 /* font-family: 'Bebas Neue', cursive;
 font-family: 'Open Sans', sans-serif; */
