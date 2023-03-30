@@ -17,9 +17,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-
 .header {
-    width: 1440px;
+    max-width: 1440px;
     height: 768px;
     background-image: url(../img/header_bg.png);
     margin: 0 auto;
@@ -53,7 +52,6 @@ body {
     line-height: 19px;
 }
 .header__p {
-
 }
 .header-p1 {
     width: 122px;
@@ -67,8 +65,7 @@ body {
     padding-top: 227px;
     padding-left: 2px;
 }
-.header__p1 {
-}
+
 .navbar1 {
     margin-bottom: 47px;
 }
@@ -87,7 +84,6 @@ body {
     height: 18px;
 }
 .menu {
-       
 }
 .navbar__menu {
     display: flex;
@@ -108,6 +104,7 @@ body {
 .navbar__menu li a:hover {
     color: #00A4E5;
 }
+
 .about {
     max-width: 941px;
     height: 344px;
@@ -118,7 +115,6 @@ body {
     text-align: center;
 }
 .story__title {
-   
 }
 .story-h1 {
     font-size: 18px;
@@ -128,7 +124,6 @@ body {
     text-transform: uppercase;
     padding-bottom: 12px;
 }
-
 .line {
     width: 50px;
     height: 2px;
@@ -144,7 +139,7 @@ body {
     justify-content: space-between
 }
 .found {
-    width: 405px;
+    max-width: 405px;
 }
 .found_title {
     font-size: 20px;
@@ -208,13 +203,12 @@ body {
 }
 
 .services {
-    width: 940px;
+    max-width: 940px;
     height: 446px;
     margin: 0 auto;
     margin-bottom: 115px;
 }
 .services__title {
-
     display: flex;
     justify-content: space-between;
 }
@@ -231,7 +225,6 @@ body {
     line-height: 21px;
     letter-spacing: 2.7543px;
     text-transform: uppercase;
-   
 }
 .servis-line {
     width: 52px;
@@ -291,7 +284,7 @@ body {
 }
 
 .get {
-    width: 1440px;
+    max-width: 1440px;
     height: 499px;
     background-image: url(../img/get-in-bgi.jpg);
     margin-top: 115px;
@@ -325,7 +318,7 @@ body {
 }
 
 .newsletter {
-    width: 1440px;
+    max-width: 1440px;
     height: 100px;
     background-color: #171819;
     padding-top: 28px;
@@ -337,7 +330,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-
 }
 .new__h2 {
     width: 290px;
@@ -370,23 +362,20 @@ body {
     letter-spacing: 0.5px;
     border: none;
     padding: 0 25px;
-    /* margin-top: 30px; */
 }
 .new__bt a {
     color: #FFF;
     text-decoration: none;
 }
-
 .footer {
-    width: 1440px;
+    max-width: 1440px;
     height: 299px;
     background-color: #141A20;
     margin: 0 auto;
 }
 .footer__titel {
-    width: 940px;
+    max-width: 940px;
     display: flex;
-    /* justify-content: flex-start */
     margin: 0 auto;
     padding-top: 38px;
 }
@@ -455,7 +444,7 @@ li {
 }
 .blog {
     width: 70px;
-    padding-left: 51px;
+    padding-left: 50px;
 }
 .contact {
     width: 141px;
@@ -465,7 +454,6 @@ li {
 }
 .contact__h4 {
     font-size: 11px;
-    
     font-weight: 400;
     letter-spacing: 0.846154px;
 }
@@ -484,13 +472,13 @@ li {
     margin-left: 46px;
 }
 .cosials__img {
-    width: 12px;
-    height: 12px;
+    width: 16px;
+    height: 16px;
     color: #FFF;
     background-color: #fff;
 }
 .copyright {
-    width: 1440px;
+    max-width: 1440px;
     height: 60px;
     padding: 63px 0 0 11px;
 }
@@ -502,6 +490,42 @@ li {
     text-align: center;
 }
 
-
-/* font-family: 'Bebas Neue', cursive;
-font-family: 'Open Sans', sans-serif; */
+@media screen and (max-width: 950px) {
+    .navbar1 {
+        padding: 15px;
+    }
+    .about {
+        padding: 0 15px;
+    }
+    .found {
+        padding-right: 10px;
+    }
+    .services {
+        padding: 0 15px;
+    }
+    .services__title {
+        flex-wrap: wrap;
+    }
+    .footer {
+        height: 430px;
+        padding: 0 15px;
+    }
+    .footer__titel {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 790px) {
+    .founded {
+        flex-wrap: wrap
+    }
+    .about {
+        margin-bottom: 275px; 
+    }
+    .services {
+        margin-bottom: 400px;
+    }
+    .servic__tree {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
